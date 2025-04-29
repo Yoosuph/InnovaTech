@@ -1,18 +1,17 @@
-
 import Hero from "@/components/Hero";
 import TeamMember from "@/components/TeamMember";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Ahmed Ibrahim",
+      name: "Abdullahi Bala Musa",
       role: "Founder & CEO",
-      bio: "With over 15 years of experience in the technology sector, Ahmed founded InnovaTech with a vision to transform businesses through innovative ICT solutions.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      bio: "With years of experience in the technology sector, Abdullahi founded InnovaTech with a vision to transform businesses through innovative ICT solutions. He studied Information Technology, Networks & Computer Security at the Prestigious Informatics Academy, Singapore (Nigerian Campus).",
+      image: "public/lovable-uploads/a956a078-80df-413f-98d8-008047ea4970.png",
       socialLinks: {
         twitter: "#",
         linkedin: "#",
-        email: "ahmed@innovatech.com"
+        email: "abdullahi@innovatech.com"
       }
     },
     {
