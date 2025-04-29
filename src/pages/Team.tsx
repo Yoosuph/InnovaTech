@@ -1,0 +1,206 @@
+
+import Hero from "@/components/Hero";
+import TeamMember from "@/components/TeamMember";
+
+const Team = () => {
+  const teamMembers = [
+    {
+      name: "Ahmed Ibrahim",
+      role: "Founder & CEO",
+      bio: "With over 15 years of experience in the technology sector, Ahmed founded InnovaTech with a vision to transform businesses through innovative ICT solutions.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "ahmed@innovatech.com"
+      }
+    },
+    {
+      name: "Sarah Johnson",
+      role: "Chief Technology Officer",
+      bio: "Sarah oversees all technical aspects of the company, bringing her extensive experience in software architecture and system design.",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "sarah@innovatech.com"
+      }
+    },
+    {
+      name: "Mohammed Yusuf",
+      role: "Head of Business Development",
+      bio: "Mohammed leads our business development initiatives, focusing on building strategic partnerships and expanding our market presence.",
+      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "mohammed@innovatech.com"
+      }
+    },
+    {
+      name: "Amina Bello",
+      role: "Digital Institute Director",
+      bio: "As the Director of InnovaTech Digital Institute, Amina brings her passion for education and extensive experience in curriculum development.",
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "amina@innovatech.com"
+      }
+    },
+    {
+      name: "David Okafor",
+      role: "Lead Web Developer",
+      bio: "David leads our web development team, specializing in creating robust, scalable web applications for clients across various industries.",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "david@innovatech.com"
+      }
+    },
+    {
+      name: "Fatima Hassan",
+      role: "Mobile App Development Lead",
+      bio: "Fatima heads our mobile app development team, bringing her expertise in creating intuitive, high-performance applications for iOS and Android.",
+      image: "https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "fatima@innovatech.com"
+      }
+    },
+    {
+      name: "John Adeyemi",
+      role: "Technical Operations Manager",
+      bio: "John ensures the smooth operation of our technical infrastructure and oversees the implementation of CCTV and IP phone systems.",
+      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "john@innovatech.com"
+      }
+    },
+    {
+      name: "Zainab Ali",
+      role: "IT Consultancy Lead",
+      bio: "Zainab leads our IT consultancy services, working closely with clients to develop and implement effective technology strategies.",
+      image: "https://images.unsplash.com/photo-1573497019236-61e7a0a28160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      socialLinks: {
+        twitter: "#",
+        linkedin: "#",
+        email: "zainab@innovatech.com"
+      }
+    }
+  ];
+
+  return (
+    <div>
+      {/* Hero Section */}
+      <Hero 
+        title="Our Team" 
+        subtitle="Meet the talented professionals behind InnovaTech's success"
+        backgroundImage="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ctaText=""
+      />
+
+      {/* Leadership Team Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="mb-4">Leadership Team</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              Our leadership team brings together decades of experience in technology, business development, and innovation.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {teamMembers.slice(0, 4).map((member, index) => (
+              <TeamMember
+                key={index}
+                name={member.name}
+                role={member.role}
+                bio={member.bio}
+                image={member.image}
+                socialLinks={member.socialLinks}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Department Leads Section */}
+      <section className="py-20 bg-gray-50 dark:bg-innovatech-navy-dark/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="mb-4">Department Leads</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              Our department leads ensure the delivery of high-quality services across all our offerings.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {teamMembers.slice(4).map((member, index) => (
+              <TeamMember
+                key={index}
+                name={member.name}
+                role={member.role}
+                bio={member.bio}
+                image={member.image}
+                socialLinks={member.socialLinks}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Join Our Team Section */}
+      <section className="py-20 bg-innovatech-navy text-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="md:w-1/2 mb-10 md:mb-0">
+              <h2 className="text-white mb-6">Join Our Team</h2>
+              <p className="text-gray-300 mb-6">
+                We're always looking for talented individuals to join our team. If you're passionate about technology and innovation, 
+                we'd love to hear from you. Check out our current openings and apply today.
+              </p>
+              <button className="btn-primary bg-innovatech-red hover:bg-innovatech-red-dark">
+                View Open Positions
+              </button>
+            </div>
+            
+            <div className="md:w-2/5">
+              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
+                <h3 className="text-xl font-bold mb-6 text-white">Why Work With Us?</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="text-innovatech-red font-bold mr-2">•</span>
+                    <span>Collaborative and innovative work environment</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-innovatech-red font-bold mr-2">•</span>
+                    <span>Opportunities for professional growth and development</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-innovatech-red font-bold mr-2">•</span>
+                    <span>Work on exciting projects with cutting-edge technologies</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-innovatech-red font-bold mr-2">•</span>
+                    <span>Competitive compensation and benefits package</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-innovatech-red font-bold mr-2">•</span>
+                    <span>Opportunity to make a real impact in Nigeria's tech scene</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Team;
