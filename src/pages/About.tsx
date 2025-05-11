@@ -148,12 +148,42 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
-                <div className="text-xl font-bold text-innovatech-navy dark:text-white">Partner Logo</div>
-              </div>
-            ))}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
+              <img 
+                src="/lovable-uploads/id2BFP1vmt_logos.png" 
+                alt="Partner Logo" 
+                className="h-full object-contain"
+              />
+            </div>
+            <div className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
+              <img 
+                src="/lovable-uploads/Untitled design.png" 
+                alt="Partner Logo" 
+                className="h-full object-contain"
+              />
+            </div>
+            <div className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
+              <img 
+                src="/lovable-uploads/logo.jpeg" 
+                alt="Partner Logo" 
+                className="h-full object-contain"
+              />
+            </div>
+            <div className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
+              <img 
+                src="/lovable-uploads/InnovaFoods & Beverages2.png" 
+                alt="Partner Logo" 
+                className="h-full object-contain"
+              />
+            </div>
+            <div className="bg-white dark:bg-innovatech-navy-dark p-4 rounded-lg shadow-md border border-gray-100 dark:border-gray-800 flex items-center justify-center h-24">
+              <img 
+                src="/lovable-uploads/JTVlogo.jpg" 
+                alt="Partner Logo" 
+                className="h-full object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
