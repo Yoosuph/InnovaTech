@@ -66,8 +66,8 @@ const DigitalInstitute = () => {
       />
 
       {/* Coming Soon Notification */}
-      <div className="bg-innovatech-red text-white text-center py-4 px-4">
-        <p className="text-xl font-bold">InnovaTech Digital Institute Coming Soon....!</p>
+      <div className="bg-innovatech-red text-white text-center py-6 px-4">
+        <p className="text-xl font-bold">InnovaTech Digital Institute is currently undergoing a massive System upgrade for the Learning Management System, We apologize for the inconveniences caused & we assure you that the service will be restored soon....!</p>
       </div>
 
       {/* About Institute Section */}
