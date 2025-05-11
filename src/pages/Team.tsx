@@ -7,7 +7,7 @@ const Team = () => {
       name: "Abdullahi Bala Musa",
       role: "Founder & CEO",
       bio: "With years of experience in the technology sector, Abdullahi founded InnovaTech with a vision to transform businesses through innovative ICT solutions. He studied Information Technology, Networks & Computer Security at the Prestigious Informatics Academy, Singapore (Nigerian Campus).",
-      image: "public/lovable-uploads/a956a078-80df-413f-98d8-008047ea4970.png",
+      image: "public/lovable-uploads/0f08e164-e59d-4273-8ea9-a963da36d17d.png",
       socialLinks: {
         twitter: "#",
         linkedin: "#",
@@ -15,14 +15,14 @@ const Team = () => {
       }
     },
     {
-      name: "Sarah Johnson",
+      name: "Yusuf Lawan Nuhu",
       role: "Chief Technology Officer",
-      bio: "Sarah oversees all technical aspects of the company, bringing her extensive experience in software architecture and system design.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      bio: "Yusuf oversees all technical aspects of the company, bringing his extensive experience in software architecture and system design.",
+      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       socialLinks: {
         twitter: "#",
         linkedin: "#",
-        email: "sarah@innovatech.com"
+        email: "yusuf@innovatech.com"
       }
     },
     {
