@@ -65,6 +65,11 @@ const DigitalInstitute = () => {
         ctaLink="#courses"
       />
 
+      {/* Coming Soon Notification */}
+      <div className="bg-innovatech-red text-white text-center py-4 px-4">
+        <p className="text-xl font-bold">InnovaTech Digital Institute Coming Soon....!</p>
+      </div>
+
       {/* About Institute Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
