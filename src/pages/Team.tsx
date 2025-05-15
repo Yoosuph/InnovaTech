@@ -26,7 +26,7 @@ const Team = () => {
       }
     },
     {
-      name: "Mohammed Yusuf",
+      name: "Mohammed M Yusuf",
       role: "Head of Business Development",
       bio: "Mohammed leads our business development initiatives, focusing on building strategic partnerships and expanding our market presence.",
       image: "public/lovable-uploads/sample-image.png",
